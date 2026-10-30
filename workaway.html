@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workaway — UI/UX Case Study | Kanishkaa</title>
+    <meta
+      name="description"
+      content="Workaway mobile app UI/UX design case study by Kanishkaa."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231c1e19'/%3E%3Ctext x='50' y='67' font-size='56' font-family='Arial' fill='%23f6f4ee' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="workaway-page">
+    <header class="nav" data-nav>
+      <div class="nav-inner">
+        <a href="index.html" class="brand">Kanishkaa<span>.</span></a>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav class="nav-menu" id="nav-menu">
+          <a href="index.html#projects">Work</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#contact" class="nav-cta">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="detail-page">
+      <a href="index.html#projects" class="back-link">
+        <svg
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M19 12H5M11 18l-6-6 6-6" />
+        </svg>
+        Back to projects
+      </a>
+
+      <section class="detail-hero">
+        <p class="kicker">
+          <span class="num">01</span>Travel & volunteering app redesign
+        </p>
+
+        <h1>Workaway<span>.</span></h1>
+
+        <p class="detail-intro">
+          A UI/UX redesign of the Workaway mobile app, focused on improving the
+          user experience of discovering volunteering opportunities, exploring
+          host profiles and connecting with hosts. The redesign aims to create a
+          more intuitive, visually consistent and seamless journey from
+          discovery to application.
+        </p>
+
+        <div class="detail-meta">
+          <div>
+            <span>Project</span>
+            <strong>Existing App Redesign</strong>
+          </div>
+          <div>
+            <span>Role</span>
+            <strong>UI/UX Design</strong>
+          </div>
+          <div>
+            <span>Tool</span>
+            <strong>Figma</strong>
+          </div>
+          <div>
+            <span>Platform</span>
+            <strong>Mobile App</strong>
+          </div>
+        </div>
+
+        <div class="workaway-hero-gallery">
+          <img src="images/workaway-cover.png" alt="Workaway welcome screen" />
+
+          <img
+            src="images/global-community.png"
+            alt="Workaway global community introduction screen"
+          />
+        </div>
+      </section>
+
+      <section class="detail-section">
+        <p class="kicker"><span class="num">02</span>Overview</p>
+        <h2>About the redesign<span>.</span></h2>
+        <p>
+          This project focuses on redesigning the Workaway mobile app to create
+          a smoother and more user-friendly experience for people looking for
+          travel and volunteering opportunities. The redesign brings together
+          host discovery, search, filtering, application review and
+          communication through a more organised and visually consistent
+          interface.
+        </p>
+      </section>
+
+      <section class="detail-section detail-two-column">
+        <div>
+          <p class="kicker"><span class="num">03</span>The challenge</p>
+          <h2>Creating a smoother user experience<span>.</span></h2>
+        </div>
+        <div>
+          <p>
+            Finding suitable volunteering opportunities involves exploring
+            different hosts, comparing details, applying for opportunities and
+            communicating with them. These interactions need to be presented in
+            a clear and easy-to-navigate way.
+          </p>
+          <p>
+            The redesign focuses on improving information hierarchy, simplifying
+            navigation, making search and filtering easier to use, and creating
+            a more consistent experience across the different stages of the
+            application journey.
+          </p>
+        </div>
+      </section>
+
+      <!-- =========================================
+     WORKAWAY — VISUAL DESIGN SYSTEM
+========================================= -->
+
+      <section class="detail-section visual-system">
+        <p class="kicker"><span class="num">07</span> Visual design system</p>
+
+        <h2>Building a consistent visual identity<span>.</span></h2>
+
+        <p class="visual-intro">
+          The visual design system brings together a warm, earthy colour
+          palette, expressive typography and consistent interface elements.
+          These choices create a welcoming and easy-to-navigate experience while
+          reflecting the spirit of travel, volunteering and community.
+        </p>
+
+        <!-- 01 COLOUR PALETTE -->
+
+        <div class="visual-block">
+          <div class="visual-block-heading">
+            <span>01</span>
+
+            <div>
+              <h3>Colour palette</h3>
+              <p>A blend of earthy tones, warm neutrals and natural accents.</p>
+            </div>
+          </div>
+
+          <div class="colour-grid">
+            <div class="colour-item">
+              <div class="colour-swatch" style="background: #c4622d"></div>
+              <strong>Terracotta</strong>
+              <span>#C4622D</span>
+              <small>Primary accent colour for buttons and highlights</small>
+            </div>
+
+            <div class="colour-item">
+              <div class="colour-swatch" style="background: #ede8df"></div>
+              <strong>Warm Ivory</strong>
+              <span>#EDE8DF</span>
+              <small>Soft background tone for a warm visual feel</small>
+            </div>
+
+            <div class="colour-item">
+              <div class="colour-swatch" style="background: #2d493e"></div>
+              <strong>Forest Green</strong>
+              <span>#2D493E</span>
+              <small>Primary interface colour for important elements</small>
+            </div>
+
+            <div class="colour-item">
+              <div class="colour-swatch" style="background: #eae6df"></div>
+              <strong>Soft Beige</strong>
+              <span>#EAE6DF</span>
+              <small>Secondary backgrounds and content surfaces</small>
+            </div>
+
+            <div class="colour-item">
+              <div class="colour-swatch" style="background: #1c1915"></div>
+              <strong>Deep Charcoal</strong>
+              <span>#1C1915</span>
+              <small>Primary text and dark interface elements</small>
+            </div>
+
+            <div class="colour-item">
+              <div class="colour-swatch" style="background: #fefefe"></div>
+              <strong>Off White</strong>
+              <span>#FEFEFE</span>
+              <small>Cards, input fields and light surfaces</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02 TYPOGRAPHY -->
+
+        <div class="visual-block">
+          <div class="visual-block-heading">
+            <span>02</span>
+
+            <div>
+              <h3>Typography</h3>
+              <p>
+                A combination of expressive serif headings and clean sans-serif
+                text.
+              </p>
+            </div>
+          </div>
+
+          <div class="type-showcase">
+            <!-- PLAYFAIR DISPLAY -->
+
+            <div class="type-sample">
+              <div class="type-label">
+                <span>PRIMARY TYPEFACE</span>
+                <span>PLAYFAIR DISPLAY</span>
+              </div>
+
+              <p class="playfair-example">Discover your next adventure.</p>
+
+              <p>
+                Used for main titles and prominent headings to give the
+                interface a distinctive, elegant visual identity.
+              </p>
+            </div>
+
+            <!-- INTER SUBHEADINGS -->
+
+            <div class="type-sample">
+              <div class="type-label">
+                <span>SECONDARY TYPEFACE</span>
+                <span>INTER</span>
+              </div>
+
+              <p class="inter-heading-example">
+                Explore opportunities around the world.
+              </p>
+
+              <p>
+                Used for subheadings, section titles and supporting content to
+                maintain clarity and readability.
+              </p>
+            </div>
+
+            <!-- INTER BODY AND BUTTONS -->
+
+            <div class="type-sample">
+              <div class="type-label">
+                <span>INTERFACE TYPOGRAPHY</span>
+                <span>INTER / SEMIBOLD</span>
+              </div>
+
+              <span class="type-button-example"> Explore Hosts </span>
+
+              <p>
+                Used for body text, buttons, navigation, labels and interactive
+                elements throughout the app.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03 INTERFACE COMPONENTS -->
+
+        <div class="visual-block">
+          <div class="visual-block-heading">
+            <span>03</span>
+
+            <div>
+              <h3>Interface components</h3>
+              <p>Reusable elements designed for a consistent experience.</p>
+            </div>
+          </div>
+
+          <div class="component-grid">
+            <!-- PRIMARY BUTTON -->
+
+            <div class="component-card">
+              <span class="component-label">PRIMARY ACTION</span>
+
+              <span class="demo-primary-button"> Explore Hosts </span>
+
+              <p>
+                Terracotta buttons highlight important actions and guide users
+                through the app journey.
+              </p>
+            </div>
+
+            <!-- SEARCH FIELD -->
+
+            <div class="component-card">
+              <span class="component-label">SEARCH FIELD</span>
+
+              <div class="demo-search">
+                <span>⌕</span>
+                <span>Country, skill or keyword...</span>
+              </div>
+
+              <p>
+                Simple search fields help users find destinations, volunteering
+                opportunities and hosts.
+              </p>
+            </div>
+
+            <!-- FILTER CHIPS -->
+
+            <div class="component-card">
+              <span class="component-label">FILTER CHIPS</span>
+
+              <div class="demo-chips">
+                <span class="active-chip">All</span>
+                <span>Farming</span>
+                <span>Teaching</span>
+                <span>Yoga</span>
+                <span>Cooking</span>
+              </div>
+
+              <p>
+                Filter chips make it easier to narrow down opportunities based
+                on interests and skills.
+              </p>
+            </div>
+
+            <!-- HOST CARD -->
+
+            <div class="component-card">
+              <span class="component-label">HOST LISTING CARD</span>
+
+              <div class="demo-host-card">
+                <div class="demo-host-image"></div>
+
+                <div>
+                  <strong>Chianti Olive Farm</strong>
+                  <small>Tuscany, Italy</small>
+                  <small>Farming · Cooking · 4.9 ★</small>
+                </div>
+              </div>
+
+              <p>
+                Host cards present essential information in a compact and
+                easy-to-scan layout.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section">
+        <p class="kicker"><span class="num">04</span>The design</p>
+        <h2>Discover, Explore & Apply<span>.</span></h2>
+        <p>
+          Explore volunteering opportunities, find the right hosts, refine your
+          search with filters and review your application — all through one
+          seamless mobile experience.
+        </p>
+
+        <div class="detail-gallery">
+          <figure>
+            <img src="images/home-page.png" alt="Workaway home screen" />
+            <figcaption>Home</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/search.png" alt="Workaway search screen" />
+            <figcaption>Search</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/filter.png" alt="Workaway filter screen" />
+            <figcaption>Filter</figcaption>
+          </figure>
+
+          <figure>
+            <img
+              src="images/application-review.png"
+              alt="Workaway application review screen"
+            />
+            <figcaption>Application Review</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="detail-section">
+        <p class="kicker"><span class="num">05</span>Host discovery</p>
+        <h2>Explore potential hosts<span>.</span></h2>
+        <p>
+          Host profiles help visitors review the information available about
+          opportunities before deciding what to explore further.
+        </p>
+
+        <div class="detail-gallery detail-gallery-three">
+          <figure>
+            <img src="images/host 1.png" alt="Workaway host profile" />
+            <figcaption>Host profile 01</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/host 2.png" alt="Another Workaway host profile" />
+            <figcaption>Host profile 02</figcaption>
+          </figure>
+
+          <figure>
+            <img
+              src="images/host 3.png"
+              alt="Additional Workaway host profile"
+            />
+            <figcaption>Host profile 03</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="detail-section">
+        <p class="kicker"><span class="num">06</span>Communication</p>
+        <h2>Connect with hosts<span>.</span></h2>
+        <p>
+          The messaging interface provides a dedicated space for communication
+          within the volunteering journey.
+        </p>
+
+        <div class="communication-gallery">
+          <figure>
+            <img src="images/messages.png" alt="Workaway messaging interface" />
+            <figcaption>Messages</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/messages2.png" alt="Workaway chat screen" />
+            <figcaption>Chat</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="detail-section">
+        <p class="kicker"><span class="num">07</span>Reflection</p>
+        <h2>What I explored<span>.</span></h2>
+        <p>
+          This project gave me an opportunity to work on mobile screen layouts,
+          visual consistency, information hierarchy and the presentation of
+          travel and volunteering opportunities.
+        </p>
+      </section>
+
+      <section class="next-project">
+        <div>
+          <p class="kicker">Next case study</p>
+          <h2 class="next-title">Find your fitness rhythm<span>.</span></h2>
+          <p>Explore the fitness mobile app design.</p>
+        </div>
+        <a href="fitness.html" class="btn btn-primary">View Fitness</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a href="index.html" class="brand">Kanishkaa<span>.</span></a>
+        <p>Designed with intention · 2026</p>
+        <a href="index.html#contact" class="btn-text">Contact</a>
+      </div>
+    </footer>
+  </body>
+</html>
