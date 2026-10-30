@@ -2198,3 +2198,21 @@ img.detail-hero-image {
 .workaway-page .communication-gallery figure {
     background-color: #e6e9de !important;
 }
+
+/* WORKAWAY – warm grey-beige gallery backgrounds */
+.workaway-page .detail-gallery,
+.workaway-page .detail-gallery figure,
+.workaway-page .communication-gallery,
+.workaway-page .communication-gallery figure {
+    background-color: #e6e9de !important;
+}
+
+/* FITNESS – lavender gallery backgrounds */
+.fitness-page .detail-gallery,
+.fitness-page .detail-gallery figure,
+.fitness-page .communication-gallery,
+.fitness-page .communication-gallery figure,
+.fitness-page .fitness-hero-gallery,
+.fitness-page .fitness-hero-gallery figure {
+    background-color: #eee7fa !important;
+}
