@@ -2158,3 +2158,37 @@ img.detail-hero-image {
         border-radius: 8px;
     }
 }
+
+/* Workaway – consistent screenshot backdrop */
+.detail-gallery figure,
+.detail-gallery img,
+.detail-feature-image,
+.communication-gallery figure,
+.communication-gallery img {
+    background-color: #e6e9de !important;
+}
+
+/* Workaway – warm grey-beige screenshot backgrounds */
+.workaway-page .detail-gallery figure,
+.workaway-page .communication-gallery figure {
+    background-color: #e6e9de !important;
+}
+
+/* Fitness – faint lavender screenshot backgrounds */
+.fitness-page .detail-gallery figure,
+.fitness-page .communication-gallery figure {
+    background-color: #eee7fa !important;
+}
+
+/* FITNESS – use lavender consistently on all gallery layers */
+.fitness-page .detail-gallery,
+.fitness-page .detail-gallery figure,
+.fitness-page .detail-gallery img,
+.fitness-page .communication-gallery,
+.fitness-page .communication-gallery figure,
+.fitness-page .communication-gallery img,
+.fitness-page .fitness-hero-gallery,
+.fitness-page .fitness-hero-gallery figure,
+.fitness-page .fitness-hero-gallery img {
+    background-color: #eee7fa !important;
+}
