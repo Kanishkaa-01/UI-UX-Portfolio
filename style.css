@@ -2192,3 +2192,9 @@ img.detail-hero-image {
 .fitness-page .fitness-hero-gallery img {
     background-color: #eee7fa !important;
 }
+
+/* WORKAWAY – retain warm grey-beige */
+.workaway-page .detail-gallery figure,
+.workaway-page .communication-gallery figure {
+    background-color: #e6e9de !important;
+}
